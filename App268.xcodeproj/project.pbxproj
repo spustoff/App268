@@ -11,6 +11,36 @@
 		78462A552B1DDCCA00E9A097 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A542B1DDCCA00E9A097 /* ContentView.swift */; };
 		78462A572B1DDCCB00E9A097 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78462A562B1DDCCB00E9A097 /* Assets.xcassets */; };
 		78462A5B2B1DDCCB00E9A097 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 78462A5A2B1DDCCB00E9A097 /* Preview Assets.xcassets */; };
+		78462A6B2B1DDD8300E9A097 /* TabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A6A2B1DDD8300E9A097 /* TabBar.swift */; };
+		78462A6D2B1DDD8C00E9A097 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A6C2B1DDD8C00E9A097 /* LoadingView.swift */; };
+		78462A6F2B1DDD9E00E9A097 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 78462A6E2B1DDD9E00E9A097 /* Launch Screen.storyboard */; };
+		78462A732B1DDFC600E9A097 /* U1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A722B1DDFC600E9A097 /* U1.swift */; };
+		78462A752B1DDFCD00E9A097 /* Reviews.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A742B1DDFCD00E9A097 /* Reviews.swift */; };
+		78462A772B1DDFD300E9A097 /* Not.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A762B1DDFD300E9A097 /* Not.swift */; };
+		78462A792B1DDFD900E9A097 /* R1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A782B1DDFD900E9A097 /* R1.swift */; };
+		78462A7B2B1DDFDE00E9A097 /* R2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A7A2B1DDFDE00E9A097 /* R2.swift */; };
+		78462A7D2B1DDFE300E9A097 /* R3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A7C2B1DDFE300E9A097 /* R3.swift */; };
+		78462A852B1DFF4600E9A097 /* PetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A842B1DFF4600E9A097 /* PetView.swift */; };
+		78462A872B1DFF6500E9A097 /* PetViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A862B1DFF6500E9A097 /* PetViewModel.swift */; };
+		78462A892B1E031800E9A097 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A882B1E031800E9A097 /* CoreDataStack.swift */; };
+		78462A8B2B1E032C00E9A097 /* ConvertDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A8A2B1E032C00E9A097 /* ConvertDate.swift */; };
+		78462A902B1E053C00E9A097 /* FeesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A8F2B1E053C00E9A097 /* FeesView.swift */; };
+		78462A922B1E0A8000E9A097 /* Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A912B1E0A8000E9A097 /* Array.swift */; };
+		78462A952B1F3E5100E9A097 /* FlightModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 78462A932B1F3E5100E9A097 /* FlightModel.xcdatamodeld */; };
+		78462A982B1F3F6F00E9A097 /* AddPetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A972B1F3F6F00E9A097 /* AddPetView.swift */; };
+		78462A9A2B1F480C00E9A097 /* FlightsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A992B1F480C00E9A097 /* FlightsView.swift */; };
+		78462A9C2B1F481400E9A097 /* StatisticsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462A9B2B1F481400E9A097 /* StatisticsView.swift */; };
+		78462A9F2B1F484D00E9A097 /* ApphudSDK in Frameworks */ = {isa = PBXBuildFile; productRef = 78462A9E2B1F484D00E9A097 /* ApphudSDK */; };
+		78462AA22B1F485400E9A097 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 78462AA12B1F485400E9A097 /* Kingfisher */; };
+		78462AA52B1F485B00E9A097 /* Amplitude in Frameworks */ = {isa = PBXBuildFile; productRef = 78462AA42B1F485B00E9A097 /* Amplitude */; };
+		78462AA82B1F486200E9A097 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 78462AA72B1F486200E9A097 /* Alamofire */; };
+		78462AAD2B1F498700E9A097 /* FlightsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462AAC2B1F498700E9A097 /* FlightsViewModel.swift */; };
+		78462AB02B1F4A3C00E9A097 /* AddFlight.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78462AAF2B1F4A3C00E9A097 /* AddFlight.swift */; };
+		F9EE3E7D2B20DD4D00D9AC13 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F9EE3E7C2B20DD4D00D9AC13 /* GoogleService-Info.plist */; };
+		F9EE3E7F2B20DD5C00D9AC13 /* Web.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE3E7E2B20DD5C00D9AC13 /* Web.swift */; };
+		F9EE3E812B20DD6A00D9AC13 /* Serv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9EE3E802B20DD6A00D9AC13 /* Serv.swift */; };
+		F9EE3E862B20DDA000D9AC13 /* OneSignalFramework in Frameworks */ = {isa = PBXBuildFile; productRef = F9EE3E852B20DDA000D9AC13 /* OneSignalFramework */; };
+		F9EE3EBD2B20DDF300D9AC13 /* FirebaseRemoteConfigSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F9EE3EBC2B20DDF300D9AC13 /* FirebaseRemoteConfigSwift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +50,30 @@
 		78462A562B1DDCCB00E9A097 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		78462A582B1DDCCB00E9A097 /* App268.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = App268.entitlements; sourceTree = "<group>"; };
 		78462A5A2B1DDCCB00E9A097 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		78462A6A2B1DDD8300E9A097 /* TabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBar.swift; sourceTree = "<group>"; };
+		78462A6C2B1DDD8C00E9A097 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		78462A6E2B1DDD9E00E9A097 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		78462A722B1DDFC600E9A097 /* U1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = U1.swift; sourceTree = "<group>"; };
+		78462A742B1DDFCD00E9A097 /* Reviews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reviews.swift; sourceTree = "<group>"; };
+		78462A762B1DDFD300E9A097 /* Not.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Not.swift; sourceTree = "<group>"; };
+		78462A782B1DDFD900E9A097 /* R1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R1.swift; sourceTree = "<group>"; };
+		78462A7A2B1DDFDE00E9A097 /* R2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R2.swift; sourceTree = "<group>"; };
+		78462A7C2B1DDFE300E9A097 /* R3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = R3.swift; sourceTree = "<group>"; };
+		78462A842B1DFF4600E9A097 /* PetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetView.swift; sourceTree = "<group>"; };
+		78462A862B1DFF6500E9A097 /* PetViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetViewModel.swift; sourceTree = "<group>"; };
+		78462A882B1E031800E9A097 /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		78462A8A2B1E032C00E9A097 /* ConvertDate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConvertDate.swift; sourceTree = "<group>"; };
+		78462A8F2B1E053C00E9A097 /* FeesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeesView.swift; sourceTree = "<group>"; };
+		78462A912B1E0A8000E9A097 /* Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Array.swift; sourceTree = "<group>"; };
+		78462A942B1F3E5100E9A097 /* FlightModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlightModel.xcdatamodel; sourceTree = "<group>"; };
+		78462A972B1F3F6F00E9A097 /* AddPetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPetView.swift; sourceTree = "<group>"; };
+		78462A992B1F480C00E9A097 /* FlightsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsView.swift; sourceTree = "<group>"; };
+		78462A9B2B1F481400E9A097 /* StatisticsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticsView.swift; sourceTree = "<group>"; };
+		78462AAC2B1F498700E9A097 /* FlightsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlightsViewModel.swift; sourceTree = "<group>"; };
+		78462AAF2B1F4A3C00E9A097 /* AddFlight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddFlight.swift; sourceTree = "<group>"; };
+		F9EE3E7C2B20DD4D00D9AC13 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		F9EE3E7E2B20DD5C00D9AC13 /* Web.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Web.swift; sourceTree = "<group>"; };
+		F9EE3E802B20DD6A00D9AC13 /* Serv.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Serv.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,6 +81,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78462AA52B1F485B00E9A097 /* Amplitude in Frameworks */,
+				78462AA82B1F486200E9A097 /* Alamofire in Frameworks */,
+				78462AA22B1F485400E9A097 /* Kingfisher in Frameworks */,
+				F9EE3E862B20DDA000D9AC13 /* OneSignalFramework in Frameworks */,
+				78462A9F2B1F484D00E9A097 /* ApphudSDK in Frameworks */,
+				F9EE3EBD2B20DDF300D9AC13 /* FirebaseRemoteConfigSwift in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -52,8 +112,10 @@
 		78462A512B1DDCCA00E9A097 /* App268 */ = {
 			isa = PBXGroup;
 			children = (
+				78462A612B1DDD3D00E9A097 /* Project */,
 				78462A522B1DDCCA00E9A097 /* App268App.swift */,
 				78462A542B1DDCCA00E9A097 /* ContentView.swift */,
+				F9EE3E7C2B20DD4D00D9AC13 /* GoogleService-Info.plist */,
 				78462A562B1DDCCB00E9A097 /* Assets.xcassets */,
 				78462A582B1DDCCB00E9A097 /* App268.entitlements */,
 				78462A592B1DDCCB00E9A097 /* Preview Content */,
@@ -67,6 +129,148 @@
 				78462A5A2B1DDCCB00E9A097 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		78462A612B1DDD3D00E9A097 /* Project */ = {
+			isa = PBXGroup;
+			children = (
+				78462A652B1DDD5A00E9A097 /* Views */,
+				78462A642B1DDD5400E9A097 /* TabBar */,
+				78462A632B1DDD4D00E9A097 /* Extensions */,
+				78462A622B1DDD4500E9A097 /* StartScreens */,
+			);
+			path = Project;
+			sourceTree = "<group>";
+		};
+		78462A622B1DDD4500E9A097 /* StartScreens */ = {
+			isa = PBXGroup;
+			children = (
+				78462A692B1DDD7600E9A097 /* Rew */,
+				78462A682B1DDD7100E9A097 /* User */,
+				78462A672B1DDD6700E9A097 /* LaunchScreen */,
+				78462A662B1DDD6000E9A097 /* LoadingView */,
+			);
+			path = StartScreens;
+			sourceTree = "<group>";
+		};
+		78462A632B1DDD4D00E9A097 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				78462A912B1E0A8000E9A097 /* Array.swift */,
+				78462A882B1E031800E9A097 /* CoreDataStack.swift */,
+				78462A8A2B1E032C00E9A097 /* ConvertDate.swift */,
+				78462A932B1F3E5100E9A097 /* FlightModel.xcdatamodeld */,
+				F9EE3E7E2B20DD5C00D9AC13 /* Web.swift */,
+				F9EE3E802B20DD6A00D9AC13 /* Serv.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		78462A642B1DDD5400E9A097 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				78462A6A2B1DDD8300E9A097 /* TabBar.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		78462A652B1DDD5A00E9A097 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				78462A812B1DFE5D00E9A097 /* Statistics */,
+				78462A802B1DFE5300E9A097 /* Flights */,
+				78462A7F2B1DFE4A00E9A097 /* Fees */,
+				78462A7E2B1DFE3D00E9A097 /* Pet */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		78462A662B1DDD6000E9A097 /* LoadingView */ = {
+			isa = PBXGroup;
+			children = (
+				78462A6C2B1DDD8C00E9A097 /* LoadingView.swift */,
+			);
+			path = LoadingView;
+			sourceTree = "<group>";
+		};
+		78462A672B1DDD6700E9A097 /* LaunchScreen */ = {
+			isa = PBXGroup;
+			children = (
+				78462A6E2B1DDD9E00E9A097 /* Launch Screen.storyboard */,
+			);
+			path = LaunchScreen;
+			sourceTree = "<group>";
+		};
+		78462A682B1DDD7100E9A097 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				78462A722B1DDFC600E9A097 /* U1.swift */,
+				78462A742B1DDFCD00E9A097 /* Reviews.swift */,
+				78462A762B1DDFD300E9A097 /* Not.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		78462A692B1DDD7600E9A097 /* Rew */ = {
+			isa = PBXGroup;
+			children = (
+				78462A782B1DDFD900E9A097 /* R1.swift */,
+				78462A7A2B1DDFDE00E9A097 /* R2.swift */,
+				78462A7C2B1DDFE300E9A097 /* R3.swift */,
+			);
+			path = Rew;
+			sourceTree = "<group>";
+		};
+		78462A7E2B1DFE3D00E9A097 /* Pet */ = {
+			isa = PBXGroup;
+			children = (
+				78462A962B1F3F5B00E9A097 /* AddPet */,
+				78462A842B1DFF4600E9A097 /* PetView.swift */,
+				78462A862B1DFF6500E9A097 /* PetViewModel.swift */,
+			);
+			path = Pet;
+			sourceTree = "<group>";
+		};
+		78462A7F2B1DFE4A00E9A097 /* Fees */ = {
+			isa = PBXGroup;
+			children = (
+				78462A8F2B1E053C00E9A097 /* FeesView.swift */,
+			);
+			path = Fees;
+			sourceTree = "<group>";
+		};
+		78462A802B1DFE5300E9A097 /* Flights */ = {
+			isa = PBXGroup;
+			children = (
+				78462AAE2B1F4A2500E9A097 /* AddFlight */,
+				78462A992B1F480C00E9A097 /* FlightsView.swift */,
+				78462AAC2B1F498700E9A097 /* FlightsViewModel.swift */,
+			);
+			path = Flights;
+			sourceTree = "<group>";
+		};
+		78462A812B1DFE5D00E9A097 /* Statistics */ = {
+			isa = PBXGroup;
+			children = (
+				78462A9B2B1F481400E9A097 /* StatisticsView.swift */,
+			);
+			path = Statistics;
+			sourceTree = "<group>";
+		};
+		78462A962B1F3F5B00E9A097 /* AddPet */ = {
+			isa = PBXGroup;
+			children = (
+				78462A972B1F3F6F00E9A097 /* AddPetView.swift */,
+			);
+			path = AddPet;
+			sourceTree = "<group>";
+		};
+		78462AAE2B1F4A2500E9A097 /* AddFlight */ = {
+			isa = PBXGroup;
+			children = (
+				78462AAF2B1F4A3C00E9A097 /* AddFlight.swift */,
+			);
+			path = AddFlight;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -85,6 +289,14 @@
 			dependencies = (
 			);
 			name = App268;
+			packageProductDependencies = (
+				78462A9E2B1F484D00E9A097 /* ApphudSDK */,
+				78462AA12B1F485400E9A097 /* Kingfisher */,
+				78462AA42B1F485B00E9A097 /* Amplitude */,
+				78462AA72B1F486200E9A097 /* Alamofire */,
+				F9EE3E852B20DDA000D9AC13 /* OneSignalFramework */,
+				F9EE3EBC2B20DDF300D9AC13 /* FirebaseRemoteConfigSwift */,
+			);
 			productName = App268;
 			productReference = 78462A4F2B1DDCCA00E9A097 /* App268.app */;
 			productType = "com.apple.product-type.application";
@@ -113,6 +325,14 @@
 				Base,
 			);
 			mainGroup = 78462A462B1DDCCA00E9A097;
+			packageReferences = (
+				78462A9D2B1F484D00E9A097 /* XCRemoteSwiftPackageReference "ApphudSDK" */,
+				78462AA02B1F485400E9A097 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+				78462AA32B1F485B00E9A097 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */,
+				78462AA62B1F486200E9A097 /* XCRemoteSwiftPackageReference "Alamofire" */,
+				F9EE3E822B20DDA000D9AC13 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */,
+				F9EE3E8B2B20DDF300D9AC13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 78462A502B1DDCCA00E9A097 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,6 +347,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78462A6F2B1DDD9E00E9A097 /* Launch Screen.storyboard in Resources */,
+				F9EE3E7D2B20DD4D00D9AC13 /* GoogleService-Info.plist in Resources */,
 				78462A5B2B1DDCCB00E9A097 /* Preview Assets.xcassets in Resources */,
 				78462A572B1DDCCB00E9A097 /* Assets.xcassets in Resources */,
 			);
@@ -139,7 +361,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				78462A6B2B1DDD8300E9A097 /* TabBar.swift in Sources */,
+				78462A9C2B1F481400E9A097 /* StatisticsView.swift in Sources */,
+				78462A8B2B1E032C00E9A097 /* ConvertDate.swift in Sources */,
+				78462A952B1F3E5100E9A097 /* FlightModel.xcdatamodeld in Sources */,
+				78462A6D2B1DDD8C00E9A097 /* LoadingView.swift in Sources */,
+				78462A982B1F3F6F00E9A097 /* AddPetView.swift in Sources */,
+				78462A922B1E0A8000E9A097 /* Array.swift in Sources */,
+				78462A9A2B1F480C00E9A097 /* FlightsView.swift in Sources */,
+				78462A7B2B1DDFDE00E9A097 /* R2.swift in Sources */,
 				78462A552B1DDCCA00E9A097 /* ContentView.swift in Sources */,
+				78462A852B1DFF4600E9A097 /* PetView.swift in Sources */,
+				78462A752B1DDFCD00E9A097 /* Reviews.swift in Sources */,
+				78462A902B1E053C00E9A097 /* FeesView.swift in Sources */,
+				F9EE3E812B20DD6A00D9AC13 /* Serv.swift in Sources */,
+				78462A892B1E031800E9A097 /* CoreDataStack.swift in Sources */,
+				F9EE3E7F2B20DD5C00D9AC13 /* Web.swift in Sources */,
+				78462A872B1DFF6500E9A097 /* PetViewModel.swift in Sources */,
+				78462AAD2B1F498700E9A097 /* FlightsViewModel.swift in Sources */,
+				78462A772B1DDFD300E9A097 /* Not.swift in Sources */,
+				78462A732B1DDFC600E9A097 /* U1.swift in Sources */,
+				78462AB02B1F4A3C00E9A097 /* AddFlight.swift in Sources */,
+				78462A792B1DDFD900E9A097 /* R1.swift in Sources */,
+				78462A7D2B1DDFE300E9A097 /* R3.swift in Sources */,
 				78462A532B1DDCCA00E9A097 /* App268App.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -188,7 +432,7 @@
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -248,6 +492,7 @@
 				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu17;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = fast;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -272,17 +517,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App268/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pet Travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -290,10 +537,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App268;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,17 +556,19 @@
 				DEVELOPMENT_ASSET_PATHS = "\"App268/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "Pet Travel";
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
 				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
 				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
 				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 14.0;
@@ -326,10 +576,11 @@
 				PRODUCT_BUNDLE_IDENTIFIER = IOI.App268;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = auto;
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -355,6 +606,103 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		78462A9D2B1F484D00E9A097 /* XCRemoteSwiftPackageReference "ApphudSDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apphud/ApphudSDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.1.4;
+			};
+		};
+		78462AA02B1F485400E9A097 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.10.0;
+			};
+		};
+		78462AA32B1F485B00E9A097 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/amplitude/Amplitude-iOS.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+		78462AA62B1F486200E9A097 /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.8.1;
+			};
+		};
+		F9EE3E822B20DDA000D9AC13 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-iOS-SDK.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.5;
+			};
+		};
+		F9EE3E8B2B20DDF300D9AC13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.19.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		78462A9E2B1F484D00E9A097 /* ApphudSDK */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78462A9D2B1F484D00E9A097 /* XCRemoteSwiftPackageReference "ApphudSDK" */;
+			productName = ApphudSDK;
+		};
+		78462AA12B1F485400E9A097 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78462AA02B1F485400E9A097 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+		78462AA42B1F485B00E9A097 /* Amplitude */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78462AA32B1F485B00E9A097 /* XCRemoteSwiftPackageReference "Amplitude-iOS" */;
+			productName = Amplitude;
+		};
+		78462AA72B1F486200E9A097 /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 78462AA62B1F486200E9A097 /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		F9EE3E852B20DDA000D9AC13 /* OneSignalFramework */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9EE3E822B20DDA000D9AC13 /* XCRemoteSwiftPackageReference "OneSignal-iOS-SDK" */;
+			productName = OneSignalFramework;
+		};
+		F9EE3EBC2B20DDF300D9AC13 /* FirebaseRemoteConfigSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F9EE3E8B2B20DDF300D9AC13 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseRemoteConfigSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		78462A932B1F3E5100E9A097 /* FlightModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				78462A942B1F3E5100E9A097 /* FlightModel.xcdatamodel */,
+			);
+			currentVersion = 78462A942B1F3E5100E9A097 /* FlightModel.xcdatamodel */;
+			path = FlightModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 78462A472B1DDCCA00E9A097 /* Project object */;
 }

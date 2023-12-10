@@ -69,8 +69,6 @@ struct AddPetView: View {
                     TextField("", text: $viewModel.name)
                         .foregroundColor(.white)
                         .font(.system(size: 13, weight: .medium))
-                        .keyboardType(.decimalPad)
-                    
                 })
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 15).fill(Color("bg3")))
@@ -86,8 +84,6 @@ struct AddPetView: View {
                     TextField("", text: $viewModel.breed)
                         .foregroundColor(.white)
                         .font(.system(size: 13, weight: .medium))
-                        .keyboardType(.decimalPad)
-                    
                 })
                 .padding()
                 .background(RoundedRectangle(cornerRadius: 15).fill(Color("bg3")))

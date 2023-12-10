@@ -97,8 +97,6 @@ struct AddFlight: View {
                                 TextField("", text: $viewModel.flightFrom)
                                     .foregroundColor(.white)
                                     .font(.system(size: 13, weight: .medium))
-                                    .keyboardType(.decimalPad)
-                                
                             })
                             .padding(10)
                             .background(RoundedRectangle(cornerRadius: 20).fill(Color("bg3")))
@@ -123,8 +121,6 @@ struct AddFlight: View {
                                 TextField("", text: $viewModel.flightTo)
                                     .foregroundColor(.white)
                                     .font(.system(size: 13, weight: .medium))
-                                    .keyboardType(.decimalPad)
-                                
                             })
                             .padding(10)
                             .background(RoundedRectangle(cornerRadius: 20).fill(Color("bg3")))
@@ -149,8 +145,6 @@ struct AddFlight: View {
                                 TextField("", text: $viewModel.flightTransfer)
                                     .foregroundColor(.white)
                                     .font(.system(size: 13, weight: .medium))
-                                    .keyboardType(.decimalPad)
-                                
                             })
                             .padding(10)
                             .background(RoundedRectangle(cornerRadius: 20).fill(Color("bg3")))
